@@ -1,0 +1,83 @@
+/*
+    estilos.css
+
+*/
+
+body {
+    margin:0;
+    padding: 0;
+    background-image:url(http://podcast.itch.edu.mx/vplib/fondo.jpg);
+}
+
+*, input {
+    color: rgb(0,128,32);
+    background: transparent;
+    font-family: Helvetica, sans-serif;
+}
+
+input { border-color: transparent; }
+
+canvas {
+    background-color: transparent;
+}
+
+h1, h2, h3 {
+  padding: 4px 0 0 0;
+  margin:  0px;
+}
+
+#mpio { padding-top: 32px; }
+
+@media screen and (min-width:480px) { /* SMARTPHONE */
+  #header1 {
+    height:40px;
+  }
+  canvas {
+    margin-top: -20px;
+  }
+}
+
+@media screen and (min-width:720px) { /* TABLET */
+  #header1 {
+    height:90px;
+    background: top center url(http://podcast.itch.edu.mx/vplib/encabezado-fondo-640.jpg) no-repeat;
+  }
+  #title {
+    padding-left: 72px;
+  }
+  canvas {
+    margin-top: -10px;
+  }
+  h1, h2, h3 {
+    padding: 20px 0 0 0;
+  }
+}
+
+@media screen and (min-width:1025px) { /* PC */
+  #header1 { /* fondo */
+    width: 950px;
+    height: 178px;
+    background: top center url(http://podcast.itch.edu.mx/vplib/encabezado-fondo.jpg) no-repeat;
+  }
+  #header2 { /* franja */
+    width: 950px;
+    height: 250px;
+    background: center center url(http://podcast.itch.edu.mx/vplib/encabezado-franja.png) no-repeat;
+  }
+  #header3 { /* sumar nos conecta */
+    width: 950px;
+    height: 200px;
+    background: 98% 4px url(http://podcast.itch.edu.mx/vplib/logo-sumar-nos-conecta.png) no-repeat;
+  }
+  #title {
+    padding-left: 0;
+  }
+  footer { /* municipio */
+    width: 969px;
+    height: 310px;
+    background: center bottom url(http://podcast.itch.edu.mx/vplib/pie-fondo.png) no-repeat;
+  }
+  h1, h2, h3 {
+    padding: 12px 0 0 0;
+  }
+}
