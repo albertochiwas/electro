@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Your Canvas</title>
+
+<style type="text/css"><!--
+#container { position: relative; }
+#imageTemp { position: absolute; top: 1px; left: 1px; }
+--></style>
+
+</head>
+<body>
+<canvas id="imageView" width="600" height="500"></canvas>
+
+<script type="text/javascript">
+var canvas, context, canvaso, contexto;
+canvaso = document.getElementById('imageView');
+context = canvaso.getContext('2d');
+context.lineWidth = 5;
+
+context.strokeStyle = '#000000';
+context.strokeRect(36, 425, 547, 61);
+
+context.strokeStyle = '#000000';
+context.strokeRect(32, 22, 544, 60);
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(176, 24);
+context.lineTo(176, 82);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(295, 24);
+context.lineTo(296, 81);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(421, 23);
+context.lineTo(421, 77);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.strokeRect(29, 91, 106, 324);
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(30, 143);
+context.lineTo(133, 142);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(32, 196);
+context.lineTo(137, 197);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(31, 243);
+context.lineTo(135, 244);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(30, 286);
+context.lineTo(137, 289);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(31, 328);
+context.lineTo(135, 331);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(29, 372);
+context.lineTo(133, 375);
+context.stroke();
+context.closePath();
+
+context.strokeStyle = '#000000';
+context.strokeRect(150, 94, 105, 142);
+
+context.strokeStyle = '#000000';
+context.beginPath();
+context.moveTo(266, 164);
+
+context.lineTo(266, 164);
+context.stroke();
+
+context.strokeStyle = '#000000';
+context.strokeRect(267, 166, 123, 210);
+
+context.strokeStyle = '#000000';
+context.strokeRect(415, 100, 122, 229);
+</script>
+</body>
+</html>
