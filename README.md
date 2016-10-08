@@ -5,6 +5,10 @@ Caso de estudio para responsive design usando HTML5
 
 Crear un Web App para movil, tablet y PC para visualizar los eventos del calendario de un congresos academico
 
+## Referencias
+
+[Tutorial de GitHub](https://guides.github.com/activities/hello-world/)
+
 ## Caso de Estudio
 
 [Guia de Markup para documentar tu README en GitHub](https://guides.github.com/features/mastering-markdown/)
